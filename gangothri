@@ -1,0 +1,120 @@
+# a=[12,43,67,7,8,21]
+# i=0
+# b=[]
+# while i<len(a):
+#     c=a[i]%10+a[i]//10
+#     b.append(c)
+#     i=i+1
+# print(b)
+
+
+# a=["sandhya","bindu"]
+# i=1
+# c=[]
+# while i<len(a):
+#     b=a[0][0]+a[1][0]
+#     c.append(b)
+#     i=i+1
+# print(c)
+
+# a=["my name is sandhya"]
+# a.reverse()
+# print(a) 
+
+
+# a=[[10,1,10,7],[4,3,7,1,0],[17,1,4,3]]
+# i=1
+# b=[]
+# while i<len(a):
+#     # c=a[0][3],a[1][4],a[2][3]
+#     c=a[-3][-1],a[-2][-1],a[-1][-1]
+#     b.append(c)
+#     break
+#     i=i+1
+# print(b)
+
+# a="man"
+# i=0
+# b=[]
+# while i<len(a):
+#     b.append(a[i])
+#     i=i+1
+# print(b)
+
+a=["one","two","three","four","five"]
+i=0
+b=[]
+while i<len(a):
+    c=str(i+1)+":"+a[i]
+    b.append(c)
+    i=i+1
+print(b)
+
+
+# a=[[10,1,10,7],[4,3,7,1,0],[17,1,4,3]]
+# i=0
+# b=[]
+# while i<len(a):
+#     c=a[i][-1]
+#     b.append(c)
+#     i=i+1
+# print(b)
+    
+    
+# a=int(input("enter the number"))
+# i=a
+# # while i<=3:
+# #     if a%2!=0:
+# #         print(a+i)
+# #     else:
+# #         print(a+i)
+# #     i=i+1
+# while i<a+4:
+#     print(i)
+#     i=i+1 
+
+
+
+#       input   124
+#       out put 1416
+
+
+# n=int(input("enter the number"))
+# i=1
+# rev=0
+# while n>0:
+#     a=n%10
+#     rev=rev*10+a
+#     n=n//10
+# b=rev
+# sum=0
+# while b>0:
+#     c=b%10
+#     print(c*c,end=" ")
+#     sum=sum*10+c
+#     b=b//10
+
+
+
+# a="banana"
+# a="apple"
+# c="banana"
+# d="or"
+# e=a
+# print(c,d,e)
+
+
+
+#  palindrome
+
+# sandhya=['a','m','m','a']
+# b=[]
+# index=-1
+# while index>=-len(sandhya):
+#     b.append(sandhya[index])
+#     index=index-1
+# if b==sandhya:
+#     print("palidrome")
+# else:
+#     print("not palidrome")
+    
